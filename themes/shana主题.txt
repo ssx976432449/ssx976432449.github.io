@@ -1,0 +1,23 @@
+### 安装
+```
+ git clone https://github.com/ShanaMaid/hexo-theme-shana themes/shana
+```
+### 配置
+修改hexo根目录下的 `_config.yml`
+```  
+`language: zh-CN`
+
+`theme: shana`
+```
+同时将`themes/shana/_source/`的`tags`和`categories`文件夹拷贝到hexo根目录下的`source`文件夹下
+
+### 更新
+```
+cd themes/shana
+
+git pull origin master
+```
+## 自定义背景图片
+`hexo-theme-shana\source\plugin\bganimation\bg.css`
+
+替换里面的图片url就可以了
