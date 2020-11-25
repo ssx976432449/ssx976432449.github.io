@@ -35,6 +35,8 @@ var description = '';
     <% if (theme.favicon){ %><link rel="icon" href="<%- url_for(theme.favicon) %>"> <% } %>
     <% if (theme.gitalk.enable){ %><%- css(['//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css'])%><%}%>
     <%- css(['css/diaspora.css'])%>
+	<!--浏览器搞笑标题-->
+	<script type="text/javascript" src="/js/FunnyTitle.js"></script>
 	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <script>
          (adsbygoogle = window.adsbygoogle || []).push({
@@ -45,4 +47,5 @@ var description = '';
     <script async custom-element="amp-auto-ads"
         src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
     </script>
+	<script type="text/javascript" src="/js/src/clicklove.js"></script>
 </head>
