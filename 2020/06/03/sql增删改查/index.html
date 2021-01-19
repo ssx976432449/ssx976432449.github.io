@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html lang="en" class="loading">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>sql的增删改查 - (๑＞ڡ＜)☆招呼都不打就进来？~</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="google" content="notranslate" />
+    <meta name="keywords" content="boom,"> 
+    <meta name="description" content="1.增（insert into）：
+语法：insert into table_name(column1,column2,column3,…) values (value1,value2,value3,"> 
+    <meta name="author" content="孙小泡"> 
+    <link rel="alternative" href="atom.xml" title="(๑＞ڡ＜)☆招呼都不打就进来？~" type="application/atom+xml"> 
+    <link rel="icon" href="/img/boom.png"> 
+    
+    
+<link rel="stylesheet" href="/css/diaspora.css">
+
+	<!--浏览器搞笑标题-->
+	<script type="text/javascript" src="/js/FunnyTitle.js"></script>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-8691406134231910",
+              enable_page_level_ads: true
+         });
+    </script>
+    <script async custom-element="amp-auto-ads"
+        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+    </script>
+	<script type="text/javascript" src="/js/src/clicklove.js"></script>
+<meta name="generator" content="Hexo 5.3.0"></head>
+
+<body class="loading">
+    <span id="config-title" style="display:none">(๑＞ڡ＜)☆招呼都不打就进来？~</span>
+    <div id="loader"></div>
+    <div id="single">
+    <div id="top" style="display: block;">
+    <div class="bar" style="width: 0;"></div>
+    <a class="iconfont icon-home image-icon" href="javascript:;" data-url="http://iboomi.cn"></a>
+    <div title="播放/暂停" class="iconfont icon-play"></div>
+    <h3 class="subtitle">sql的增删改查</h3>
+    <div class="social">
+        <div>
+            <div class="share">
+                <a title="获取二维码" class="iconfont icon-scan" href="javascript:;"></a>
+            </div>
+            <div id="qr"></div>
+        </div>
+    </div>
+    <div class="scrollbar"></div>
+</div>
+
+    <div class="section">
+        <div class="article">
+    <div class='main'>
+        <h1 class="title">sql的增删改查</h1>
+        <div class="stuff">
+            <span>六月 03, 2020</span>
+            
+  <ul class="post-tags-list" itemprop="keywords"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/sql/" rel="tag">sql</a></li><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/%E5%A2%9E%E5%88%A0%E6%94%B9%E6%9F%A5/" rel="tag">增删改查</a></li></ul>
+
+
+        </div>
+        <div class="content markdown">
+            <h1 id="1-增（insert-into）："><a href="#1-增（insert-into）：" class="headerlink" title="1.增（insert into）："></a>1.增（insert into）：<font color="#9932CC"></font></h1><blockquote>
+<p><strong>语法：</strong><br><font color="#9932CC">insert into</font> table_name(column1,column2,column3,…) <font color="#9932CC">values</font> (value1,value2,value3…)<br><strong>例子：</strong><br>insert into table_name(id,name,age) values (“1”,”孙小泡”,”18”)</p>
+</blockquote>
+<h1 id="2-删（delete）："><a href="#2-删（delete）：" class="headerlink" title="2.删（delete）："></a>2.删（delete）：</h1><blockquote>
+<p><strong>语法：</strong><br><font color="#9932CC">delete from</font> table_name <font color="#9932CC">where</font> column=value</p>
+</blockquote>
+<p>　　没有where是删除表中所有行，表的结构、属性、索引保持不变！</p>
+<blockquote>
+<p><strong>例子：</strong><br>delete from user where id=1</p>
+</blockquote>
+<h1 id="3-改（update）："><a href="#3-改（update）：" class="headerlink" title="3.改（update）："></a>3.改（update）：</h1><blockquote>
+<p><strong>语法：</strong><br><font color="#9932CC">update</font> table_name <font color="#9932CC">set</font> column1=value1,column2=value2,… <font color="#9932CC">where</font> column=value<br><strong>例子：</strong><br>update user set name=”小泡“ where id=1</p>
+</blockquote>
+<h1 id="4-查（select）："><a href="#4-查（select）：" class="headerlink" title="4.查（select）："></a>4.查（select）：</h1><blockquote>
+<p><strong>语法：</strong><br><font color="#9932CC">select</font> column_name,column_name <font color="#9932CC">from</font> table_name <font color="#9932CC">where</font> column=value</p>
+</blockquote>
+<p>　　可以用“*”代替要查询的所有字段，但是，“*”与列出所有表名比起来会导致查询效率的降低，因为数据库还需要从系统表中查询该表的所有字段。</p>
+<blockquote>
+<p><strong>例子：</strong><br>select * from user where id=1</p>
+</blockquote>
+
+            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="true">
+                <source type="audio/mpeg" src="">
+            </audio>
+            
+                <ul id="audio-list" style="display:none">
+                    
+                        
+                            <li title='0' data-url='http://link.hhtjim.com/163/425570952.mp3'></li>
+                        
+                    
+                        
+                            <li title='1' data-url='http://link.hhtjim.com/163/425570952.mp3'></li>
+                        
+                    
+                </ul>
+            
+        </div>
+        
+    <div id='gitalk-container' class="comment link"
+		data-enable='false'
+        data-ae='false'
+        data-ci=''
+        data-cs=''
+        data-r=''
+        data-o=''
+        data-a=''
+        data-d='false'
+    >查看评论</div>
+
+
+    </div>
+    
+        <div class='side'>
+			<ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#1-%E5%A2%9E%EF%BC%88insert-into%EF%BC%89%EF%BC%9A"><span class="toc-text">1.增（insert into）：</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#2-%E5%88%A0%EF%BC%88delete%EF%BC%89%EF%BC%9A"><span class="toc-text">2.删（delete）：</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#3-%E6%94%B9%EF%BC%88update%EF%BC%89%EF%BC%9A"><span class="toc-text">3.改（update）：</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#4-%E6%9F%A5%EF%BC%88select%EF%BC%89%EF%BC%9A"><span class="toc-text">4.查（select）：</span></a></li></ol>	
+        </div>
+    
+</div>
+
+
+    </div>
+</div>
+</body>
+
+
+<script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
+<script src="/js/plugin.js"></script>
+<script src="/js/typed.js"></script>
+<script src="/js/diaspora.js"></script>
+
+
+<link rel="stylesheet" href="/photoswipe/photoswipe.css">
+<link rel="stylesheet" href="/photoswipe/default-skin/default-skin.css">
+
+
+<script src="/photoswipe/photoswipe.min.js"></script>
+<script src="/photoswipe/photoswipe-ui-default.min.js"></script>
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <!--  Controls are self-explanatory. Order can be changed. -->
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+</html>
