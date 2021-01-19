@@ -8,7 +8,7 @@ document.addEventListener('visibilitychange', function () {
     }
     else {
         $('[rel="icon"]').attr('href', "/img/boom.png");
-        document.title = '( (๑＞ڡ＜)☆让我看看是哪个小可爱点进来惹~';
+        document.title = '( (๑＞ڡ＜)☆oh我的老baby你还知道回来呢~';
         titleTime = setTimeout(function () {
             document.title = OriginTitle;
         }, 2000);

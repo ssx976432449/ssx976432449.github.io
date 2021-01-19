@@ -1,4 +1,5 @@
-title: "index"
-layout: "tags"
 ---
-# 这是tag的index
+title: tags
+date: 2020-01-04 16:21:56
+type: "tags"
+---
