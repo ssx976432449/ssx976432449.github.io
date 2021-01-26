@@ -395,6 +395,12 @@ $(function() {
 		searchFunc(path, 'local-search-input', 'local-search-result');
 	}
 	
+	$(".hideWord").onmouseover = function(){
+		
+	}
+	$(".hideWord").onmouseout = function(){
+		
+	}
 	
     var typed = null;
     $('body').on('click', function(e) {
