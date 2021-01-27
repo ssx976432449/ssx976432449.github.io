@@ -97,3 +97,5 @@ favicon: /img/boom.png
 
 # rss文件
 rss: atom.xml
+
+author: ssx
