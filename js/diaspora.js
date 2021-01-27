@@ -641,3 +641,12 @@ $(function() {
     console.log("%c Github %c","background:#24272A; color:#ffffff","","https://github.com/Fechin/hexo-theme-diaspora")
 })
 
+$(document).ready(function(){
+		if($("#articleHtmlDiv")){
+			$.getJSON("../JSON/img.json",function(data){
+				//alert(data);
+				$("#articleHtmlDiv").css("background-color","red");
+			});
+		}
+});
+
