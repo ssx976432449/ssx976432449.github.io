@@ -345,3 +345,8 @@ body {  cursor : url( ../img/Arrow.cur) , default;  }
 	text-align: center;
 	margin-top: 50px;
 }
+
+.hideWord{
+	background-color:brown;
+	color:brown;
+}
