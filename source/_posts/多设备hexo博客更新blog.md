@@ -9,13 +9,13 @@ tags:
 ---
 　　暂时没空写怎么部署两台同时更新blog，先空着吧，把更新要用的操作先记录下来。
 　　**更新、提交blog的操作**
-　　按顺序依次执行：
+　　按顺序依次执行：<span class="hideWord"> 下面代码中的hexo换成自己的远端分支名称 </span>
 ```
 ▷ git pull
 ▷ 写blog
 ▷ git add -A
 ▷ git commit -m "..."
-▷ git push origin hexo<span class="hideWord"> hexo换成自己的远端分支名称 </span>
+▷ git push origin hexo
 ▷ hexo clean
 ▷ hexo g
 ▷ hexo s
