@@ -351,4 +351,6 @@ body {  cursor : url( ../img/Arrow.cur) , default;  }
 	background-color:brown;
 	color:brown;
 	border-radius: 10px;
+	padding-left: 10px;
+    padding-right: 10px;
 }
