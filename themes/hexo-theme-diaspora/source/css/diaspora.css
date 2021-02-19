@@ -22,7 +22,7 @@ audio {display:none;visibility:hidden;opacity:0;width:0;height:0;}
 #screen {position:relative;}
 #mark {width:100%;height:560px;overflow:hidden;}
 .layer {position:relative;}
-#cover {position:absolute;max-width:none;}
+#cover {max-width:none;}
 #header {position:absolute;top:70px;width:100%;}
 #header > div {margin:0 60px;position:relative;}
 .icon-menu {font-size:20px;padding:6px 6px 5px;border-radius:2px;cursor:pointer;position:absolute;z-index:4;right:0;top:0;margin-top:-3px;background:rgba(255,255,255,.9);}
@@ -130,7 +130,7 @@ body.mu .icon-logo {color:#333;}
 #container {padding-bottom:100px;overflow:hidden;position:relative;}
 #container:before {content:'';display:block;width:1px;height:200%;position:absolute;left:50%;background:#eaeaea;top:-50%;z-index:0;}
 #primary {position:relative;}
-#single {background:#fff;position:relative;overflow-x:hidden;}
+#single {background:#fff;position:relative;overflow-x:hidden;min-height: inherit;}
 .section {position:relative;width:100%;overflow:hidden;-webkit-transition:all 0.3s cubic-bezier(0.25,0.5,0.5,0.9);-moz-transition:all 0.3s cubic-bezier(0.25,0.5,0.5,0.9);transition:all 0.3s cubic-bezier(0.25,0.5,0.5,0.9);}
 body.touch,body.touch .article {margin-top:0;}
 .zoom:before {opacity:0;color:#fff;font-size:20px;display:block;z-index:3;left:50%;top:70%;padding:5px;margin-top:-15px;margin-left:-15px;position:absolute;background:rgba(0,0,0,.7);-webkit-transition:all 0.3s cubic-bezier(0.25,0.5,0.5,0.9);-moz-transition:all 0.3s cubic-bezier(0.25,0.5,0.5,0.9);transition:all 0.3s cubic-bezier(0.25,0.5,0.5,0.9);}
@@ -331,6 +331,7 @@ body {  cursor : url( ../img/Arrow.cur) , default;  }
     background-size: contain;
 	background-repeat: no-repeat;
 	background-attachment:fixed;
+	min-height: inherit;
 }
 
 #articleContentHtmlDiv{

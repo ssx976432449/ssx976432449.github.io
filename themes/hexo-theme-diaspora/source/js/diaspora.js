@@ -402,6 +402,10 @@ $(function() {
 		$(".hideWord").css("color","brown");
 	});
 	
+	//if($("#preview").height() != document.documentElement.clientHeight){
+	//	alert("1");
+	//}
+	
     var typed = null;
     $('body').on('click', function(e) {
         var tag = $(e.target).attr('class') || '',
