@@ -197,6 +197,15 @@ var Diaspora = {
     }
 };
 
+$(document).mousemove(function(e){
+	$(".hideWord").mouseenter(function(){
+		$(".hideWord").css("color","wheat");
+	});
+	$(".hideWord").mouseleave(function(){
+		$(".hideWord").css("color","brown");
+	});
+});
+
 $(function() {
     if (Diaspora.P()) {
         $('body').addClass('touch')
@@ -394,13 +403,6 @@ $(function() {
 	if(document.getElementById('local-search-input') !== null){
 		searchFunc(path, 'local-search-input', 'local-search-result');
 	}
-	
-	$(".hideWord").mouseenter(function(){
-		$(".hideWord").css("color","wheat");
-	});
-	$(".hideWord").mouseleave(function(){
-		$(".hideWord").css("color","brown");
-	});
 	
 	//if($("#preview").height() != document.documentElement.clientHeight){
 	//	alert("1");
