@@ -12,7 +12,7 @@ tags:
 　　按顺序依次执行：<span class="hideWord">下面代码中的hexo换成自己的远端分支名称</span>
 ```
 ▷ git pull
-▷ 写blog
+▷ 写blog（hexo new post <title>）
 ▷ git add -A
 ▷ git commit -m "..."
 ▷ git push origin hexo
