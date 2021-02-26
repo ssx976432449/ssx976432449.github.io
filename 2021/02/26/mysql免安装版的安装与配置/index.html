@@ -1,0 +1,192 @@
+
+<!DOCTYPE html>
+<html lang="en" class="loading">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>mysql免安装版的安装与配置 - (๑＞ڡ＜)☆招呼都不打就进来？~</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="google" content="notranslate" />
+    <meta name="keywords" content="boom,"> 
+    <meta name="description" content="一、Mysql的安装　　Mysql是一种关系数据库管理系统，所使用的SQL语言是用于访问数据库最常用的标准化语言。其特点为体积小、速度快、总体拥有成本低，尤其是开放源码这一特点，在 Web应用方面 ,"> 
+    <meta name="author" content="孙小泡"> 
+    <link rel="alternative" href="atom.xml" title="(๑＞ڡ＜)☆招呼都不打就进来？~" type="application/atom+xml"> 
+    <link rel="icon" href="/img/boom.png"> 
+    
+    
+<link rel="stylesheet" href="/css/diaspora.css">
+
+	<!--浏览器搞笑标题-->
+	<script type="text/javascript" src="/js/FunnyTitle.js"></script>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-8691406134231910",
+              enable_page_level_ads: true
+         });
+    </script>
+    <script async custom-element="amp-auto-ads"
+        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+    </script>
+	<script type="text/javascript" src="/js/clicklove.js"></script>
+<meta name="generator" content="Hexo 5.2.0"></head>
+
+<body class="loading">
+    <span id="config-title" style="display:none">(๑＞ڡ＜)☆招呼都不打就进来？~</span>
+    <div id="loader"></div>
+    <div id="single">
+    <div id="top" style="display: block;">
+    <div class="bar" style="width: 0;"></div>
+    <a class="iconfont icon-home image-icon" href="javascript:;" data-url="http://iboomi.cn"></a>
+    <div title="播放/暂停" class="iconfont icon-play"></div>
+    <h3 class="subtitle">mysql免安装版的安装与配置</h3>
+	<!--
+    <div class="social">
+        <div>
+            <div class="share">
+                <a title="获取二维码" class="iconfont icon-scan" href="javascript:;"></a>
+            </div>
+            <div id="qr"></div>
+        </div>
+    </div>
+	-->
+    <div class="scrollbar"></div>
+</div>
+
+    <div class="section" id="articleHtmlDiv">
+    </div>
+	<div class="article" id="articleContentHtmlDiv">
+    <div class='main'>
+        <h1 class="title">mysql免安装版的安装与配置</h1>
+        <div class="stuff">
+            <span>二月 26, 2021</span>
+            
+  <ul class="post-tags-list" itemprop="keywords"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/mysql%E6%95%B0%E6%8D%AE%E5%BA%93/" rel="tag">mysql数据库</a><span class="post-tags-list-count">1</span></li></ul>
+
+
+        </div>
+        <div class="content markdown">
+            <h1 id="一、Mysql的安装"><a href="#一、Mysql的安装" class="headerlink" title="一、Mysql的安装"></a>一、Mysql的安装</h1><p>　　Mysql是一种关系数据库管理系统，所使用的SQL语言是用于访问数据库最常用的标准化语言。其特点为体积小、速度快、总体拥有成本低，尤其是开放源码这一特点，在 Web应用方面 MySQL 是最好的 RDBMS(Relational Database Management System：关系数据库管理系统)应用软件之一。</p>
+<p>　　在本文中，主要以Mysql免安装版为例，说明Mysql的安装与配置。</p>
+<h2 id="1-1下载安装包："><a href="#1-1下载安装包：" class="headerlink" title="1.1下载安装包："></a>1.1下载安装包：</h2><p>　　在<a target="_blank" rel="noopener" href="https://www.mysql.com/">Mysql官网</a>中，点击“DOWNLOADS”。<br>　　跳转到对应界面后往下拉，如下图，框起来的就是Mysql社区版，点击链接进入页面。<br>　　选择Mysql社区版（MySQL Community Server）<br>　　下载免安装版即可。下载完成后解压在你想存放的目录，路径中避免出现中文名。</p>
+<h1 id="二、Mysql的配置"><a href="#二、Mysql的配置" class="headerlink" title="二、Mysql的配置"></a>二、Mysql的配置</h1><h2 id="2-1-Mysql的配置："><a href="#2-1-Mysql的配置：" class="headerlink" title="2.1 Mysql的配置："></a>2.1 Mysql的配置：</h2><p>　　以<span style="color:red;">管理员身份</span>打开CMD，如果不是管理员身份打开，后续部分命令会出现权限问题。<a href="hy.jpg">test</a><br>　　转到mysql的bin目录下。<br>　　安装mysql的服务：mysqld –install<br>　　初始化mysql：mysqld –initialize –console<br>　　初始化完成后，会产生一个随机密码，用于接下来的登录。<br>　　开启mysql服务：net start mysql<br>　　登录验证mysql是否安装成功。（上面产生的随机密码不包括前面符号前面的空格，否则会登陆失败）登陆成功如下图所示。</p>
+<h2 id="2-2-修改密码："><a href="#2-2-修改密码：" class="headerlink" title="2.2 修改密码："></a>2.2 修改密码：</h2><p>　　也就是修改上面随机产生的密码，便于我们登录mysql。<br>　　修改密码（登录进入mysql中修改）：alter user ‘root’@’localhost’ identified by ‘123456’;<br>　　再次登录验证修改的密码。</p>
+<h2 id="2-3-设置系统全局变量："><a href="#2-3-设置系统全局变量：" class="headerlink" title="2.3 设置系统全局变量："></a>2.3 设置系统全局变量：</h2><p>　　为了方便不需要进入mysql的bin目录下就能使用mysql命令，我们需要设置一个全局变量：<br>　　“我的电脑”-&gt;“属性”-&gt;“高级系统设置”-&gt;“环境变量”，新建一个系统变量，变量名为mysql，变量值为mysql的根目录。<br>　　把新建的mysql变量添加到Path路径变量中，点击确定即可。<br>　　配置完成后，不需要再进入到mysql根目录下就能使用mysql命令。</p>
+<h2 id="2-4-创建配置文件："><a href="#2-4-创建配置文件：" class="headerlink" title="2.4 创建配置文件："></a>2.4 创建配置文件：</h2><p>　　在mysql根目录下创建一个ini或cnf配置文件，里面写的代码是mysql的一些基本配置。<br>　　创建完成后，免安装版的Mysql就安装并配置完成了。</p>
+<p>　　<span class="hideWord">Ohhhhhhhh</span></p>
+
+            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="true">
+                <source type="audio/mpeg" src="">
+            </audio>
+            
+                <ul id="audio-list" style="display:none">
+                    
+                        
+                            <li title='0' data-url='http://link.hhtjim.com/163/425570952.mp3'></li>
+                        
+                    
+                        
+                            <li title='1' data-url='http://link.hhtjim.com/163/425570952.mp3'></li>
+                        
+                    
+                </ul>
+            
+        </div>
+        
+    <div id='gitalk-container' class="comment link"
+		data-enable='false'
+        data-ae='false'
+        data-ci=''
+        data-cs=''
+        data-r=''
+        data-o=''
+        data-a=''
+        data-d='false'
+    >查看评论</div>
+
+
+    </div>
+    
+        <div class='side'>
+			<div id="articleCatalog">目　录</div>
+			<ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80%E3%80%81Mysql%E7%9A%84%E5%AE%89%E8%A3%85"><span class="toc-text">一、Mysql的安装</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-1%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85%E5%8C%85%EF%BC%9A"><span class="toc-text">1.1下载安装包：</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%8C%E3%80%81Mysql%E7%9A%84%E9%85%8D%E7%BD%AE"><span class="toc-text">二、Mysql的配置</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#2-1-Mysql%E7%9A%84%E9%85%8D%E7%BD%AE%EF%BC%9A"><span class="toc-text">2.1 Mysql的配置：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-2-%E4%BF%AE%E6%94%B9%E5%AF%86%E7%A0%81%EF%BC%9A"><span class="toc-text">2.2 修改密码：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-3-%E8%AE%BE%E7%BD%AE%E7%B3%BB%E7%BB%9F%E5%85%A8%E5%B1%80%E5%8F%98%E9%87%8F%EF%BC%9A"><span class="toc-text">2.3 设置系统全局变量：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-4-%E5%88%9B%E5%BB%BA%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%EF%BC%9A"><span class="toc-text">2.4 创建配置文件：</span></a></li></ol></li></ol>	
+        </div>
+    
+</div>
+
+
+</div>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"model":{"jsonPath":"/live2dw/assets/shizuku.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":false},"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+
+
+<script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
+<script src="/js/plugin.js"></script>
+<script src="/js/typed.js"></script>
+<script src="/js/diaspora.js"></script>
+
+
+<link rel="stylesheet" href="/photoswipe/photoswipe.css">
+<link rel="stylesheet" href="/photoswipe/default-skin/default-skin.css">
+
+
+<script src="/photoswipe/photoswipe.min.js"></script>
+<script src="/photoswipe/photoswipe-ui-default.min.js"></script>
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <!--  Controls are self-explanatory. Order can be changed. -->
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+</html>
