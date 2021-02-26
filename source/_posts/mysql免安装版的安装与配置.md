@@ -24,7 +24,7 @@ tags:
 
 ## 2.1 Mysql的配置：
 
-　　以<span style="color:red;">管理员身份</span>打开CMD，如果不是管理员身份打开，后续部分命令会出现权限问题。[test](hy.jpg)
+　　以<span style="color:red;">管理员身份</span>打开CMD，如果不是管理员身份打开，后续部分命令会出现权限问题。
 　　转到mysql的bin目录下。
 　　安装mysql的服务：mysqld --install
 　　初始化mysql：mysqld --initialize --console
