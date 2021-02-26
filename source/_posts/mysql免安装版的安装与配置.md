@@ -1,6 +1,6 @@
 ---
 title: mysql免安装版的安装与配置
-date: 2021-02-23 17:01:13
+date: 2021-02-26 11:09:26
 desc: 本篇主要写mysql免安装版，也就是压缩包的安装与配置。
 categories:
 	- 数据库
@@ -24,7 +24,7 @@ tags:
 
 ## 2.1 Mysql的配置：
 
-　　以<span style="color:red;">管理员身份</span>打开CMD，如果不是管理员身份打开，后续部分命令会出现权限问题。
+　　以<span style="color:red;">管理员身份</span>打开CMD，如果不是管理员身份打开，后续部分命令会出现权限问题。[test](hy.jpg)
 　　转到mysql的bin目录下。
 　　安装mysql的服务：mysqld --install
 　　初始化mysql：mysqld --initialize --console
